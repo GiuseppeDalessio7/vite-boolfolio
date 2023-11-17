@@ -42,7 +42,7 @@ export default {
         <div class="col" v-for="project in   projects  ">
           <div class="card">
             <img width="300" :src="this.myurl + 'storage/' + project.cover_image" alt="">
-            <img src="{{ project.cover_image }}" alt="">
+
             <div class="card-body">
               <h4>{{ project.title }}</h4>
               <h6>{{ project.description }}</h6>
