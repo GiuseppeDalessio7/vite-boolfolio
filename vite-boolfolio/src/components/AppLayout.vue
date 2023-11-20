@@ -7,9 +7,9 @@ export default {
 
 <template>
     <section>
-        <div class="container">
-            <h1 class="text-center">All my project</h1>
-        </div>
+
+        <h1 class="text-center">All my project</h1>
+
     </section>
 </template>
 

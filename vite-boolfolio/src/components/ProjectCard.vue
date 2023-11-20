@@ -14,7 +14,6 @@ export default {
 
 <template>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 mt-2">
-
         <div class="col">
             <div class="card">
                 <img width="300" :src="myurl + 'storage/' + project.cover_image" alt="">
