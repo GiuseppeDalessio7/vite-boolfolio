@@ -1,11 +1,15 @@
 <script >
 import axios from 'axios';
 import ProjectCard from './components/ProjectCard.vue';
+import AppHeader from './components/AppHeader.vue';
+import AppLayout from './components/AppLayout.vue';
 
 export default {
   Name: 'App',
   components: {
-    ProjectCard
+    ProjectCard,
+    AppHeader,
+    AppLayout,
   },
   data() {
 
@@ -40,17 +44,11 @@ export default {
 
 
 <template>
-  <section>
-    <!-- <AppHeader></AppHeader>
+  <!-- <AppHeader></AppHeader>
     <router-view></router-view> -->
-    <div class="container">
-      <h1 class="text-center">All my project</h1>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 mt-2">
-        <ProjectCard v-for="project in projects" />
-      </div>
-    </div>
-
-  </section>
+  <AppHeader></AppHeader>
+  <AppLayout></AppLayout>
+  <ProjectCard v-for="pro in projects" :project="pro" :myurl="myurl" />
 </template>
 
 <style></style>
