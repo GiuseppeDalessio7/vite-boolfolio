@@ -16,16 +16,13 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link to="/" class="nav-link">Home</router-link>
+                        <router-link to="/" class="nav-link">HomePage</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/projects" class="nav-link">Projects</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Contacts</a>
                     </li>
                 </ul>
             </div>

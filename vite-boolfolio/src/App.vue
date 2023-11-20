@@ -44,10 +44,11 @@ export default {
 
 
 <template>
-  <!-- <AppHeader></AppHeader>
-    <router-view></router-view> -->
   <AppHeader></AppHeader>
-  <AppLayout></AppLayout>
+
+  <router-view></router-view>
+
+  <!-- <AppLayout></AppLayout> -->
   <ProjectCard v-for="pro in projects" :project="pro" :myurl="myurl" />
 </template>
 

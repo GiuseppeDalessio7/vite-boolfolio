@@ -1,4 +1,4 @@
-import { createRouter, creaWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 
 
 import AppHome from './views/AppHome.vue';
@@ -6,23 +6,23 @@ import AppProjects from './views/AppProjects.vue';
 
 
 
-const router = createRouter(
-    {
-        history: createWebHashHistorry(),
-        routes: [
-            {
-                path: '/',
-                name: 'home',
-                component: AppHome,
-            },
+const router = createRouter({
 
-            {
-                path: '/projects',
-                name: 'projects',
-                component: AppProjects,
-            },
-        ]
-    });
+    history: createWebHistory(),
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: AppHome,
+        },
+
+        {
+            path: '/projects',
+            name: 'projects',
+            component: AppProjects,
+        },
+    ]
+});
 
 
 export { router }
