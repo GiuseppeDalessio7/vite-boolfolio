@@ -34,12 +34,12 @@ export default {
 
 <template>
     <main>
+        <Projects />
         <div class="container mt-2">
             <div class="row row-cols-3">
-                <ProjectCard v-for="project in projects" :project="project" :myurl="myurl" class=" col-md-4 mb-4" />
+                <ProjectCard v-for="project in projects" :project="project" :myurl="myurl" />
             </div>
         </div>
     </main>
 </template>
-
 <style></style>

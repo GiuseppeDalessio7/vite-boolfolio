@@ -26,9 +26,9 @@ export default {
                 <div>
                     <small>Link to Project:</small> <a :href="project.r_link">{{ project.r_link }} </a>
                 </div>
-                <!-- {{ project.types }} -->
-                <!-- {{ project.technologies }} -->
             </div>
+
+
         </div>
     </div>
 </template>

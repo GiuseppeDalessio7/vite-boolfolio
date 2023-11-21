@@ -23,8 +23,8 @@ const router = createRouter({
 
         // {
         //     path: '/project/:slug',
-        //     name: 'single-project',
-        //     component: SingleProjectView
+        //     name: 'project',
+        //     component: SingleProjectView,
         // },
     ]
 });
