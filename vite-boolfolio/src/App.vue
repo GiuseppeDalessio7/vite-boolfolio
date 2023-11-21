@@ -48,7 +48,6 @@ export default {
 
   <router-view></router-view>
 
-  <!-- <AppLayout></AppLayout> -->
   <ProjectCard v-for="pro in projects" :project="pro" :myurl="myurl" />
 </template>
 
