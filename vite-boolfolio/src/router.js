@@ -15,12 +15,17 @@ const router = createRouter({
             name: 'home',
             component: AppHome,
         },
-
         {
             path: '/projects',
             name: 'projects',
             component: AppProjects,
         },
+
+        // {
+        //     path: '/project/:slug',
+        //     name: 'single-project',
+        //     component: SingleProjectView
+        // },
     ]
 });
 
